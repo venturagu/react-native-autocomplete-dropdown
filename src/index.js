@@ -351,7 +351,7 @@ export const AutocompleteDropdown = memo(
           ></RightButton>
         </View>
 
-        {isOpened && Array.isArray(dataSet) && (
+        {Array.isArray(dataSet) && (
           <View
             style={{
               ...styles.listContainer,
